@@ -17,7 +17,7 @@ in hand, as humans perceive and replicate them.
 **Baseline**: 0  
 **Beardline**: -400
 
-<embed src="https://github.com/cskau/Hakuran-typeface/raw/master/font-template.svg" width="300" height="100" type="image/svg+xml" />
+![](https://github.com/cskau/Hakuran-typeface/raw/master/font-template.png)
 
 ## SVG format style guidelines
 The source SVG definition is defined around some dimensions as given below.
