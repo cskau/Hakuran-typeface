@@ -4,13 +4,13 @@
 <svg width="100%" height="100%" version="1.1" xmlns = 'http://www.w3.org/2000/svg'>
     <defs>
         <font id="Hakuran" horiz-adv-x="1000">
-            <font-face font-family="Hakuran">
+            <font-face font-family="Hakuran" x-height="500" cap-height="900">
                 <font-face-src>
                     <font-face-name name="Hakuran"/>
                 </font-face-src>
             </font-face>
-            <missing-glyph d="M100,100 h800 v800 h-800 z" />
-            <glyph unicode=" " horiz-adv-x="500" d="" />
+            <missing-glyph d="M100,100h800v800h-800z" />
+            <glyph unicode=" " horiz-adv-x="250" d="" />
             <glyph unicode="a" horiz-adv-x="830" d="m 577.93846,744.22396 c -556.724808,331.40754 -707.32264,-821.063755 0,-499.58719 z m 0,303.32074 137.38648,3.5685 0,-795.771 L 817.02659,183.97261 792.04723,87.623499 663.58196,158.99331 C 620.7602,66.2127 447.25809,46.746301 331.71334,55.5073 -244.93689,99.230999 -5.4717466,1246.0111 577.93846,876.25769 z" />
         </font>
     </defs>

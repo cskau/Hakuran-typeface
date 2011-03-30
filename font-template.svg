@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- typeface creating template -->
+<svg width="100%" height="100%" viewBox="-200 -1100 1400 1600" version="1.1" xmlns = 'http://www.w3.org/2000/svg'>
+    <rect width="10000" height="10000" x="-5000" y="-5000" style="fill:white" />
+    <!-- The guides and boundaries -->
+    <g transform="scale(1,-1)" style="fill:none;stroke-width:1;stroke:#000">
+        <line x1="-1000" y1="0" x2="1000" y2="0" />
+        <line x1="0" y1="-1000" x2="0" y2="1000" />
+        <g style="stroke:red;stroke-dasharray:8 4 20 4">
+            <rect width="1000" height="1000" /> <!-- 1em -->
+            <rect width="500" height="500" /> <!-- 1en = em/2 -->
+            <rect width="250" height="250" /> <!-- em/4 = en/2, usual word space -->
+            <line x1="-1000" y1="1000" x2="2000" y2="1000" /> <!-- Topline -->
+            <line x1="-1000" y1="900" x2="2000" y2="900" /> <!-- Capline -->
+            <line x1="-1000" y1="500" x2="2000" y2="500" /> <!-- Midline -->
+            <line x1="-1000" y1="0" x2="2000" y2="0" /> <!-- Baseline -->
+            <line x1="-1000" y1="-400" x2="2000" y2="-400" /> <!-- Beardline -->
+        </g>
+    </g>
+    <text x="1010" y="0" font-size="40" fill="blue" >x</text>
+    <text x="0" y="-1010" font-size="40" fill="blue" >y</text>
+    <text x="-50" y="-1000" font-size="20" fill="blue" >1000</text>
+    <!-- squares -->
+    <text x="500" y="-1000" font-size="20" fill="green" >em</text>
+    <text x="250" y="-500" font-size="20" fill="green" >en</text>
+    <text x="125" y="-250" font-size="20" fill="green" >space</text>
+    <!-- lines -->
+    <text x="-150" y="-1000" font-size="20" fill="green" >Topline</text>
+    <text x="-150" y="-900" font-size="20" fill="green" >Capline</text>
+    <text x="-150" y="-500" font-size="20" fill="green" >Midline</text>
+    <text x="-150" y="0" font-size="20" fill="green" >Baseline</text>
+    <text x="-150" y="400" font-size="20" fill="green" >Beardline</text>
+    
+    <g transform="scale(1,-1)" style="fill:none;stroke-width:1;stroke:#000">
+        <!-- y-coords in svg-font is opposite that of svg -->
+        <!-- Letters go here -->
+    </g>
+</svg>
