@@ -11,10 +11,10 @@ This means that glyphs are designed to look like they do when they are written
 in hand, as humans perceive and replicate them.
 
 ## Lines
-**Topline**: 1000
-**Capline**: 900
-**Midline**: 500
-**Baseline**: 0
+**Topline**: 1000  
+**Capline**: 900  
+**Midline**: 500  
+**Baseline**: 0  
 **Beardline**: -400
 
 <embed src="https://github.com/cskau/Hakuran-typeface/raw/master/font-template.svg" width="300" height="100" type="image/svg+xml" />
@@ -24,6 +24,6 @@ The source SVG definition is defined around some dimensions as given below.
 All values not explicitly stated as assumed their default values, 
 where these are given.
 
-**horiz-adv-x**: "1000"
-**cap-height**: "900"
+**horiz-adv-x**: "1000"  
+**cap-height**: "900"  
 **x-height**: "500"
