@@ -32,8 +32,9 @@
     <text x="-150" y="0" font-size="20" fill="green" >Baseline</text>
     <text x="-150" y="400" font-size="20" fill="green" >Beardline</text>
     
-    <g transform="scale(1,-1)" style="fill:none;stroke-width:1;stroke:#000">
+    <g transform="matrix(1,0,0,-1,0,0) " style="fill:none;stroke-width:1;stroke:purple">
         <!-- y-coords in svg-font is opposite that of svg -->
         <!-- Letters go here -->
+        <path id="a" d="m 330.54533,382.52427 c -321.1445278,191.17114 -408.016298,-473.627408 0,-288.184908 z m 0,116.96938 79.25085,2.05848 0,-401.03738 C 423.42841,80.868482 446.832,70.993592 468.46238,59.345482 L 454.05313,3.7668715 C 425.8773,14.015732 399.76683,26.329962 379.94845,44.936262 355.24688,-8.5838685 255.16287,-19.812978 188.51133,-14.759238 -144.12709,10.462612 -5.9925678,671.97822 330.54533,458.68741 z" />
     </g>
 </svg>
